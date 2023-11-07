@@ -34,7 +34,7 @@ public class IngresarPersona extends JFrame{
                 String nombre = txtNombre.getText();
                 String apellido = txtApellido.getText();
                 String idioma = cbmidioma.getSelectedItem().toString();
-                String aceptoTerminos = (chbTerminos.isSelected()) ? "Si" : "No";
+                String aceptoTerminos = (chbTerminos.isSelected()) ? "Si " : "No ";
                 String genero = (rbtMasculino.isSelected()) ? "Masculino" :
                                 (rbtFemenino.isSelected()) ? "Femenino" :
                                         (rbtOtro.isSelected()) ? "Otro" :
